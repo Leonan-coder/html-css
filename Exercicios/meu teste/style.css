@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#titulao{
+    color: rgb(117, 39, 189);
+}
+
+h2.topicos {
+      color: rgb(204, 170, 236);
+}
+
+h3.explicar {
+    color:rgb(0, 0, 0)
+}
+div {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+
