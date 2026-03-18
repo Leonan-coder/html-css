@@ -1,0 +1,73 @@
+@font-face {
+     
+    font-family: 'passionone'; 
+    src: url('fontes/PassionOne-Bold.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'Sriracha';
+    src:url('fontes/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+   *{
+    margin: 0px;
+    padding: 0px;
+   }
+header{
+    background-color: black;
+    height: 150px;
+    color: white;
+    position: relative;
+}
+header > h1 {
+    font-family: 'passionone';
+    text-align: center;
+    padding-top: 45px;
+    font-size: 60px;
+}
+
+header > p {
+    position: absolute;
+    top: 70%;
+    left: 47%;  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+  section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+ section > p {
+    font-family: 'Sriracha';
+    height: 300px;
+    font-size: 20px;
+    line-height: 2em;
+    padding-left: 25px;
+   
+}
+
+
+section.imagem {
+       background-color: rgb(156, 224, 202);
+       
+}
+
+section.imagem > p
+{
+    
+    background-color: rgba(0, 0, 0, 0.226);
+    width: 400px;
+    margin: 40px;
+}
+
+section.texto{
+    background-color: rgb(109, 64, 64);
+}
+
