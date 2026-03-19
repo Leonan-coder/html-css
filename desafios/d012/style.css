@@ -11,63 +11,78 @@
     src:url('fontes/Sriracha-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    
-}
-   *{
-    margin: 0px;
-    padding: 0px;
-   }
-header{
-    background-color: black;
-    height: 150px;
-    color: white;
-    position: relative;
-}
-header > h1 {
-    font-family: 'passionone';
-    text-align: center;
-    padding-top: 45px;
-    font-size: 60px;
-}
+    }
 
-header > p {
-    position: absolute;
-    top: 70%;
-    left: 47%;  
-}
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 
-a{
-    color: white;
-    text-decoration: none;
-}
-  section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-  }
- section > p {
-    font-family: 'Sriracha';
-    height: 300px;
-    font-size: 20px;
-    line-height: 2em;
-    padding-left: 25px;
-   
-}
+    html, body {
+        min-height: 100vh;
+    }
 
+    header{
+        background-color: black;
+    }
 
-section.imagem {
-       background-color: rgb(156, 224, 202);
-       
-}
+    header > h1{
+        color: white;
+        font-family: 'passionone';
+        text-align: center;
+        padding-top: 70px;
+        font-size: 20vh;
+    }
 
-section.imagem > p
-{
-    
-    background-color: rgba(0, 0, 0, 0.226);
-    width: 400px;
-    margin: 40px;
-}
+    header > p{
+        text-align: center;
+        padding-bottom: 60px;
+        color: white;
+        font-size: 20px;
+    }
 
-section.texto{
-    background-color: rgb(109, 64, 64);
-}
+    a{
+        color: white;
+        text-decoration: none;
+        
+    }
+ 
+    a:hover{
+        text-decoration: underline;
+    }
 
+    section{
+        padding: 80px 0px 80px 20px;
+        font-family: 'Sriracha';
+        font-size: 4vh;
+    }
+
+    section.imagem{
+        background-color: blueviolet;
+        background-attachment: fixed;
+        box-shadow:inset 2px 2px 13px rgba(0, 0, 0, 0.733);
+    }
+
+    section.texto{
+        background-color: white;
+    }
+
+    section.imagem > p {
+        background-color: rgba(0, 0, 0, 0.342);
+        width: 400px;
+        padding-left: 10px;
+        color: white;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.548);
+    }
+
+    section#img01 {
+        background-image: url('imagens/background001.jpg');
+        background-position: right center;
+        background-size: cover;
+    }
+
+    section#img02 {
+        background-image: url('imagens/background002.jpg');
+        background-position: left center;
+        background-size: cover;
+    }
